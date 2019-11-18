@@ -1,0 +1,180 @@
+
+.CourseCommon {
+    .content {
+      img{
+        margin:0 auto;
+      }
+        .activeA{background-color: #28A9E0;color: #fff !important;}
+  * {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;  }
+  @font-face {font-family: 'Roboto-Regular';}
+  @font-face {font-family: 'msyh';}
+  a{color: #5a5a5a;}
+  img{vertical-align: bottom;}
+  body{padding: 0;margin: 0;font-family: 'Roboto-Regular', 'msyh';letter-spacing: 1px;}
+  .container{margin: 0 15px;}
+  .ponit{color: #F00;}
+  @media screen and (min-width: 960px){.container {margin: 0 auto;width: 930px;}}
+  
+  /* ==========================header========================== */
+  header{background-color: #28A9E0;height: 44px;text-align: center;color: #fff;}
+  header .logo-icon h1{display: inline-block;font-size: 0;color: transparent;}
+  header .logo-icon img{max-height: 42px;}
+  @media screen and (min-width: 960px){header{padding-top: 16px;background-color: #2a2a2a;height: 96px;text-align: left;}header .logo-icon img{max-height: 72px;}}
+  
+  /* =======================index=============================*/
+  /*ibet-dns */
+  .ibet-dns{margin-bottom: 50px;background-size: auto 150%;background-position: center top;color: #fff;}
+  .ibet-dns .cover{padding-top: 95px;padding-bottom: 95px;background-color: rgba(0, 0, 0, 0.3);text-align: center;}
+  .ibet-dns .cover > h2{margin: 0 0 20px 0;font-size: 30px;}
+  .ibet-dns .cover > p{margin: 20px auto;width: 232px;font-size: 18px;text-align: justify;}
+  .ibet-dns .cover h2{margin: auto;}
+  .ibet-dns .cover .cover-text span{margin-left: -140px;display: block;}
+  .qcode-box{width: 270px;float: right;}
+  .qcode-box .qcode-buttom{font-size: 12px;font-weight: normal;}
+  .qcode-box .qcode-title{color: #ffc107;margin: 10px;font-size: 16px;}
+  #qcode{width:150px;height:150px;margin:auto;}
+  .ibet-dns .cover > h2 .text-length{display: inline-block;}
+  @media screen and (min-width: 760px){
+      .ibet-dns{background-size: 100% auto;background-position: center center;}
+      .ibet-dns .cover{padding-top: 160px;padding-bottom: 160px;}
+      .ibet-dns .cover > h2{font-size: 34px;width: 760px;}
+      .ibet-dns .cover > h2 .text-length{width: 468px;}
+      .ibet-dns .cover > p{width: 340px;}
+      .ibet-dns .cover-text span{width: 340px;}
+  }
+  @media screen and (min-width: 960px){
+      .ibet-dns .cover{padding-top: 225px;padding-bottom: 225px;}
+      .ibet-dns .cover > h2{font-size: 50px;width: 964px;}
+      .ibet-dns .cover > h2 .text-length{width: 682px;}
+      .ibet-dns .cover > p{width: 520px;}
+      .ibet-dns .cover-text span{width: 520px;}
+  }
+  @media screen and (min-width: 1280px){
+      .ibet-dns .cover{padding-top: 225px;padding-bottom: 225px;}
+      .ibet-dns .cover > h2{font-size: 70px;width: 1180px;}
+      .ibet-dns .cover > h2 .text-length{width: 900px;}
+      .ibet-dns .cover > p{width: 725px;}
+      .ibet-dns .cover-text span{width: 725px;}
+  }
+  @media screen and (min-width: 1440px){
+      .ibet-dns .cover{padding-top: 225px;padding-bottom: 225px;}
+      .ibet-dns .cover > h2{font-size: 80px;width: 1320px;}
+      .ibet-dns .cover > h2 .text-length{width: 1040px;}
+      .ibet-dns .cover > p{width: 725px;}
+      .ibet-dns .cover-text span{width: 725px;}
+  }
+  /* tutorial-box */
+  .tutorial-box{display: flex;flex-direction: column;margin-bottom: 50px;color: #fff;}
+  .tutorial-box .img-box{background-size: 100% auto;background-position: center top;background-repeat: no-repeat;height: 200px;}
+  // .tutorial-box .img-box.computer{background-image: url('/images/dns/computer.jpg');}
+  // .tutorial-box .img-box.tablet{background-image: url('/images/dns/tablet.jpg');}
+  // .tutorial-box .img-box.mobile{background-image: url('/images/dns/mobile.jpg');}
+  .tutorial-box .content-box{padding: 35px 30px;background-color: #3a3a3a;}
+  .tutorial-box .content-box h2{margin: 0;font-size: 30px;text-align: center;}
+  .tutorial-box .content-box h2 small{margin-top: 35px;display: block;font-size: 20px;}
+  .tutorial-box .content-box h2 small .sub-title a{color: #fff;}
+  .tutorial-box .content-box h2 small .sub-title .url-text-h{margin-right: -7px;}
+  .tutorial-box .content-box h2 small .sub-title .url-text-c{margin-left: -7px;}
+  .tutorial-box .content-box h2 small .highlight{color: #ffc107;}
+  .tutorial-box .content-box h2 small .sub-title{display: block;}
+  .tutorial-box .content-box h2 small .sub-title:first-child{width: 100%;margin-bottom: 15px;}
+  .tutorial-box .content-box h2 small .sub-title:last-child{margin-bottom: 35px;}
+  .tutorial-box .content-box p{margin: 0 0 30px 0;text-align: justify;font-size: 14px;}
+  .tutorial-box .content-box ul{display: flex;justify-content: space-around;margin: 0;padding-left: 0;list-style: none;}
+  .tutorial-box .content-box ul li a{color: #ffc107;text-decoration: none;font-size: 14px;}
+  .tutorial-box .content-box ul li a .arrow-icon{width: 10px;height: 17px;}
+  .tutorial-box .content-box ul li {
+    a{color: #ffc107;text-decoration: none;font-size: 14px;
+    display: flex;align-items: center;
+    .arrow-icon{width: 10px;height: 17px;margin-left: 10px;}
+    }
+  }
+  @media screen and (min-width: 760px){
+      .tutorial-box .content-box{padding: 35px 50px;}
+      .tutorial-box .content-box h2 small .sub-title{display: inline-block;}
+      .tutorial-box .content-box ul{ustify-content: center;}
+      .tutorial-box .content-box ul li{margin-right: 25px;}
+      .tutorial-box .content-box ul li:last-child{margin-right: 0;}
+  }
+  @media screen and (min-width: 860px){
+      .tutorial-box{flex-direction: row;align-items: center;}
+      .tutorial-box.reverse .img-box{order: 2;}
+      .tutorial-box.reverse .content-box{order: 1;}
+      .tutorial-box.reverse .img-box{transform-origin: right center;}
+      .tutorial-box .img-box{position: relative;z-index: 1;transform-origin: left center;transform: scaleX(1.05);flex: 0 1 auto;width: 50%;height: 340px;}
+      .tutorial-box .content-box{flex: 0 1 50%;}
+  }
+  /* ==========================web=========================  */
+  .tutorial-select{display: flex;align-items: center;}
+  .tutorial-select .left-btn a,.tutorial-select .right-btn a{text-decoration: none;width: 100%;height: 100%;padding: 10px;}
+  .tutorial-select .left-btn{position: relative;flex: 0 1 auto;;transform: rotate(90deg);}
+  .tutorial-select .left-btn::after{position: absolute;left: 50%;top: 130%;content: '';display: inline-block;width: 1px;height: 30px;background-color: #000;}
+  .tutorial-select .img {flex: 1 1 auto;background-size: auto 100%;background-repeat: no-repeat;background-position: center top;height: 330px;line-height: 330px;font-size: 30px;text-align: center;color: #fff;}
+  // .tutorial-select .img.web{background-image: url('/images/dns/web/computer-tutorial.jpg');}
+  // .tutorial-select .img.mobile{background-image: url('/images/dns/phone/mobile-tutorial.jpg');}
+  // .tutorial-select .img.tablet{background-image: url('/images/dns/tablet-tutorial.jpg');}
+  .tutorial-select .img .img-bg{width: 100%;height: 100%;background-color: rgba(0, 0, 0, .3);}
+  @media screen and (min-width: 620px){.tutorial-select .img{height: 500px;line-height: 500px;}}
+  @media screen and (min-width: 970px){.tutorial-select .img{background-size: 100% auto;font-size: 60px;}}
+  .tutorial-select .right-btn{flex: 0 1 auto;padding-left: 10px;padding-right: 10px;transform: rotate(90deg);}
+  .tutorial-select .right-btn::after{position: absolute;left: 50%;top: -180%;content: '';display: inline-block;width: 1px;height: 30px;background-color: #000;}
+  .tutorial-button-box{position: relative;margin: 0 15px;padding: 30px 0;}
+  @media screen and (min-width: 620px){.tutorial-button-box{padding: 60px 0;}}
+  .tutorial-button-title{position: relative;display: inline-block;padding: 12px 20px;border-radius: 2px;border: 1px solid #1C98CC;width: 100%;height: 100%;background-color: #1C98CC;color: #fff;text-decoration: none;cursor: pointer;}
+  .tutorial-button-title::after{position: absolute;right: 40px;display: inline-block;content: '\f107';font: normal normal normal 14px/1 FontAwesome;font-size: inherit;text-rendering: auto;-webkit-font-smoothing: antialiased;line-height: 22px;}
+  @media screen and (min-width: 620px){.tutorial-button-title{display: none;}}
+  .tutorial-button{position: absolute;left: 0;right: 0;display: flex;flex-direction: column;justify-content: center;margin: 0;padding-left: 0;list-style: none;font-size: 16px;}
+  @media screen and (min-width: 620px){.tutorial-button{position: static;flex-direction: row;}}
+  .tutorial-button li{border: 1px solid #1C98CC;border-top: none;background-color: #fff;}
+  @media screen and (min-width: 620px){.tutorial-button li{margin-right: 30px;border-radius: 2px;border-top: 1px solid #1C98CC;}}
+  .tutorial-button li:last-child{margin-right: 0;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;}
+  .tutorial-button li a{display: inline-block;padding: 12px 20px;width: 100%;height: 100%;color: #1C98CC;text-decoration: none;transition: all 500ms;}
+  .tutorial-button li a:hover{background-color: #28A9E0;color: #fff;}
+  @media screen and (min-width: 620px){.tutorial-button li a{width: 180px;}.tutorial-button li.active a{background-color: #1C98CC;color: #fff;}}
+  /* 步驟 */
+  .main-box{padding: 0 15px;}
+  .main-box img{max-width: 275px;width: 100%;height: auto;}
+  .main-box img.img-508{max-width: 508px;}
+  /* 返回鍵 */
+  .back{margin: 50px 0;}
+  .back a{text-decoration: none;display: block;}
+  .back a span{font-size: 16px;color: #28A9E0;line-height: 22px;}
+  .back a img{display: inline-block;width: 10px;height: 22px;margin-left: 4px;}
+  /*  麵包屑 */
+  .web-tutorial{text-align: center;}
+  .web-tutorial .breadcrumbs{list-style: none;padding-left: 84px;display: flex;color: #5a5a5a;}
+  .web-tutorial .breadcrumbs li:not(:last-child)::after{content: '/';display: inline-block;margin: 0 5px;}
+  .web-tutorial .breadcrumbs li a{text-decoration:none;}
+  /* 一鍵修改 */
+  #key-change-tutorial{padding-bottom: 120px;}
+  #key-change-tutorial div{padding: 10px;display: inline-flex;align-items: center;justify-content: center;border: 1px solid #000;width: 300px;border-radius: 5px;background-color: #000;}
+  #key-change-tutorial p{margin-bottom: 50px;}
+  #key-change-tutorial p span{display: inline-block;margin-top: 15px;}
+  #key-change-tutorial div img{margin-right: 15px;color: #ffc107;width: 32px;height: 32px;}
+  #key-change-tutorial div a{text-decoration:none;color: #ffc107;}
+  /* 手動教程 */
+  .manual-tutorial ul{margin: 0;padding-left: 0;list-style: none;}
+  .manual-tutorial ul  li{margin-bottom: 50px;}
+  .manual-tutorial ul li p{margin-bottom: 30px;}
+  /* mac教程 */
+  .mac-tutorial ul{margin: 0;padding-left: 0;list-style: none;}
+  .mac-tutorial ul li{margin-bottom: 50px;}
+  .mac-tutorial ul li p{margin-bottom: 30px;}
+  
+  /*=========================tablet和mobile=========================*/
+  .android-tutorial img,.ios-tutorial img{max-width: 274px;}
+  /* android教程 */
+  .android-tutorial ul{margin: 0;padding-left: 0;list-style: none;}
+  .android-tutorial ul  li{margin-bottom: 50px;}
+  .android-tutorial ul li p{margin-bottom: 30px;}
+  /*ios教程 */
+  .ios-tutorial ul{margin: 0;padding-left: 0;list-style: none;}
+  .ios-tutorial ul li{margin-bottom: 50px;}
+  .ios-tutorial ul li p{margin-bottom: 30px;}
+  /*麵包屑 */
+  .tablet-tutorial,.mobile-tutorial{text-align: center;}
+  .tablet-tutorial .breadcrumbs,.mobile-tutorial .breadcrumbs{list-style: none;padding-left: 84px;display: flex;color: #5a5a5a;}
+  .tablet-tutorial .breadcrumbs li:not(:last-child)::after,.mobile-tutorial .breadcrumbs li:not(:last-child)::after {content: '/';display: inline-block;margin: 0 5px;}
+  .tablet-tutorial .breadcrumbs li a,.mobile-tutorial .breadcrumbs li a{text-decoration:none;}
+    }
+  }
